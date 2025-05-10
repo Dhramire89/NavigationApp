@@ -26,14 +26,14 @@ const CustomButton = React.forwardRef(
     // el color del fondo
     const btnColor = {
       primary: "bg-primary",
-      secondary: "bg-secondary",
+      secondary: "bg-secondary-default",
       tertiary: "bg-tertiary",
     }[color];
 
     // el color del texto
     const textColor = {
       primary: "text-primary",
-      secondary: "text-secondary",
+      secondary: "text-secondary-default",
       tertiary: "text-tertiary",
     }[color];
 
