@@ -1,7 +1,7 @@
 import React from "react";
 import { SafeAreaView, Text, View } from "react-native";
 
-const products = () => {
+const productsScreen = () => {
   return (
     <SafeAreaView>
       <View>
@@ -11,4 +11,4 @@ const products = () => {
   );
 };
 
-export default products;
+export default productsScreen;
