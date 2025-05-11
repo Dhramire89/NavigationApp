@@ -36,6 +36,20 @@ const HomeScreen = () => {
             Productos
           </CustomButton>
         </Link>
+        <CustomButton
+          className="mb-2"
+          color="secondary"
+          onPress={() => router.push("/profile")}
+        >
+          Perfil
+        </CustomButton>
+        <CustomButton
+          className="mb-2"
+          color="secondary"
+          onPress={() => router.push("/profile")}
+        >
+          Perfil
+        </CustomButton>
 
         {/* <Link className="mb-5" href="/products">
           {" "}
