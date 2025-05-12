@@ -38,14 +38,14 @@ const HomeScreen = () => {
         </Link>
         <CustomButton
           className="mb-2"
-          color="secondary"
+          color="primary"
           onPress={() => router.push("/profile")}
         >
           Perfil
         </CustomButton>
         <CustomButton
           className="mb-2"
-          color="secondary"
+          color="primary"
           onPress={() => router.push("/profile")}
         >
           Perfil
