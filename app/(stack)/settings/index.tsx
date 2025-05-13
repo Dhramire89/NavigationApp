@@ -1,14 +1,14 @@
 import React from "react";
 import { SafeAreaView, Text, View } from "react-native";
 
-const productsScreen = () => {
+const SettingsScreen = () => {
   return (
     <SafeAreaView>
       <View>
-        <Text className="mx-5">Productos</Text>
+        <Text>Configuracion</Text>
       </View>
     </SafeAreaView>
   );
 };
 
-export default productsScreen;
+export default SettingsScreen;

@@ -1,7 +1,7 @@
 import { Redirect } from "expo-router";
 
 export default function Page() {
-  return <Redirect href="/home" />; // redirecciona a la página de Home
+  return <Redirect href="/(stack)/home" />; // redirecciona a la página de Home
   // return (
 
   // ejemplo de uso de fonts
