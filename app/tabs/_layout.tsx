@@ -23,6 +23,15 @@ const TabsLayout = () => {
           ),
         }}
       />
+      <Tabs.Screen
+        name="(stack)"
+        options={{
+          title: "Stack",
+          tabBarIcon: ({ color }) => (
+            <FontAwesome size={28} name="home" color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 };
