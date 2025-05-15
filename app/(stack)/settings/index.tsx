@@ -5,7 +5,7 @@ const SettingsScreen = () => {
   return (
     <SafeAreaView>
       <View>
-        <Text>Configuracion</Text>
+        <Text>Configuracidon</Text>
       </View>
     </SafeAreaView>
   );
