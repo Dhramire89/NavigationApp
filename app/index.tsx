@@ -1,7 +1,8 @@
 import { Redirect } from "expo-router";
 
 export default function Page() {
-  return <Redirect href="/tabs" />; // redirecciona a la página de tabs
+  return <Redirect href="/drawer" />;
+  //return <Redirect href="/tabs" />; // redirecciona a la página de tabs
   //return <Redirect href="/(stack)/home" />; // redirecciona a la página de Home
 
   // return (
