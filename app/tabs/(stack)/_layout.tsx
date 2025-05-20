@@ -5,7 +5,7 @@ const StackLayout = () => {
   return (
     <Stack
       screenOptions={{
-        headerShown: true, // Mostrar el encabezado
+        headerShown: false, // Mostrar el encabezado
         headerShadowVisible: false, // Ocultar la sombra del encabezado
         contentStyle: {
           backgroundColor: "white", // Color de fondo del contenido
@@ -21,7 +21,7 @@ const StackLayout = () => {
       <Stack.Screen
         name="products/index"
         options={{
-          title: "Productos",
+          title: "Productsssos",
           animation: "ios_from_left", // Animación de entrada
         }}
       />
