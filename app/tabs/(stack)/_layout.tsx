@@ -5,7 +5,7 @@ const StackLayout = () => {
   return (
     <Stack
       screenOptions={{
-        headerShown: false, // Mostrar el encabezado
+        headerShown: true, // Mostrar el encabezado
         headerShadowVisible: false, // Ocultar la sombra del encabezado
         contentStyle: {
           backgroundColor: "white", // Color de fondo del contenido
