@@ -10,7 +10,7 @@ const HomeScreen = () => {
         <CustomButton
           className="mb-2"
           color="primary"
-          onPress={() => router.push("/drawer/tabs/(stack)/products")}
+          onPress={() => router.push("/products")}
         >
           Productos
         </CustomButton>
