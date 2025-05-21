@@ -26,10 +26,21 @@ const Drawerlayout = () => {
       <Drawer.Screen
         name="schedule/index" // This is the name of the page and must match the url from root
         options={{
-          drawerLabel: "Horarrio",
-          title: "Horario",
+          drawerLabel: "Horarrio", //esta etiqueta es la que se muestra en el drawer
+          title: "Horario", //esta etiqueta es la que se muestra en el header
+          drawerIcon: (
+            { color, size } //icono que se muestra en el drawer
+          ) => <Ionicons name="calendar-outline" size={size} color={color} />,
+        }}
+      />
+
+      <Drawer.Screen
+        name="tabs" // This is the name of the page and must match the url from root
+        options={{
+          drawerLabel: "Tabs",
+          title: "Tabs",
           drawerIcon: ({ color, size }) => (
-            <Ionicons name="calendar-outline" size={size} color={color} />
+            <Ionicons name="albums-outline" size={size} color={color} />
           ),
         }}
       />
