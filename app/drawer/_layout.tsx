@@ -6,8 +6,10 @@ import React from "react";
 const Drawerlayout = () => {
   return (
     <Drawer
-      drawerContent={CustomDrawer} // This is the content of the drawer
+      // esta propiedad es para el drawer
+      drawerContent={CustomDrawer} // esta propiedad es para el drawer
       screenOptions={{
+        headerShown: false, // esta propiedad oculta el header
         overlayColor: "rgba(0,0,0,0.4)",
         drawerActiveTintColor: "indigo",
         headerShadowVisible: false,
