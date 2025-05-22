@@ -16,7 +16,7 @@ const HomeScreen = () => {
         </CustomButton>
 
         <CustomButton
-          className="mb-2"
+          className="mb-3"
           color="secondary"
           onPress={() => router.push("/drawer/tabs/(stack)/profile")}
         >
@@ -24,7 +24,7 @@ const HomeScreen = () => {
         </CustomButton>
 
         <CustomButton
-          className="mb-2"
+          className="mb-3"
           color="tertiary"
           onPress={() => router.push("/drawer/tabs/(stack)/settings")}
         >
