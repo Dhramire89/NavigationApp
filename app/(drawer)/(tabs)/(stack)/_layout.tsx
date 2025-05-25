@@ -21,7 +21,7 @@ const StackLayout = () => {
       <Stack.Screen
         name="products/index"
         options={{
-          title: "Productsssos",
+          title: "Productos",
           animation: "ios_from_left", // Animación de entrada
         }}
       />
